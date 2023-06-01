@@ -21,6 +21,9 @@ body {
     cursor: pointer;
 
 }
+.button:hover{
+    background-color: rgb(231, 145, 145)
+}
 form{
       display: flex;
       flex-direction:column;
