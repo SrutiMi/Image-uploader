@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);        background-blend-mode: lighten;
+}
+.button{
+    background-color: rgb(48, 211, 206);
+    padding-left: 13px;
+    padding-right:15px ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+form{
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      margin-top: 20px;
+}
+.file{
+        padding: 10px 20px;
+        background-color: #70e874;
+        color: white;
+        border: none;
+        cursor: pointer;
+}
+.container{
+    display: grid;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    .button {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+}
+
+/* For screens smaller than 400px */
+@media (max-width: 400px) {
+    .button {
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 12px;
+    }
+}
